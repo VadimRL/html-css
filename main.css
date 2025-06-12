@@ -75,6 +75,7 @@ body {
 	margin: -15px;
 }
 .row__item {
+	flex: 0 1 100%;
 	padding: 15px;
 }
 
@@ -168,16 +169,16 @@ body {
 
 @media (min-width: 768px) {
 	.row__item {
-		flex: 0 1 100%;
+		flex: 0 1 50%;
 	}
 }
 @media (min-width: 992px) {
 	.row__item {
-		flex: 0 1 50%;
+		flex: 0 1 33.333%;
 	}
 }
 @media (min-width: 1200px) {
 	.row__item {
-		flex: 0 1 33.333%;
+		flex: 0 1 25%;
 	}
 }
